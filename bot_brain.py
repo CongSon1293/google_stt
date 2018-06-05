@@ -16,5 +16,15 @@ def get_response(question):
         return u'Sáng nắng, chiều mưa, giữa trưa có bão.'
     elif u'hôm nay' in question and u'thứ mấy' in question:
         return u'Tra lịch để biết câu trả lời nhé.'
+    elif u'thích' in question and u'môn thể thao' in question:
+        return u'Tôi thích bóng đá.'
+    elif u'câu lạc bộ' in question:
+        return u'Tôi là phan của man chét tơ ui nai tứt.'
+    elif u'thủ đô' in question and u'việt nam' in question:
+        return u'Thủ đô của Việt Nam là thành phố Hà Nội.'
+    elif u'thủ tướng' in question and u'việt nam' in question:
+        return u'Đó là ông Nguyễn Xuân Phúc.'
+    elif question == u'':
+        return u'Xin lỗi, tôi không nghe thấy bạn nói gì.'
     else:
         return u'Xin lỗi, tôi không hiểu câu hỏi "%s" của bạn' % (question)

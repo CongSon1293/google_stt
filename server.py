@@ -36,7 +36,7 @@ def get_content():
     questions = []
     for result in response.results:
         questions.append(unicode(result.alternatives[0].transcript))
-    return chatbot.get_response(u'\n'.join(questions))
+    return bot_brain.get_response(u'\n'.join(questions))
 
 
 

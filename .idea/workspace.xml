@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc833f7-912f-45e2-bf4d-ab56a3d02a34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chatbot.py" afterPath="$PROJECT_DIR$/bot_brain.py" />
-      <change beforePath="$PROJECT_DIR$/resources/answer.mp3" afterPath="$PROJECT_DIR$/resources/answer.mp3" />
-      <change beforePath="$PROJECT_DIR$/resources/question.wav" afterPath="$PROJECT_DIR$/resources/question.wav" />
-      <change beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/server.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/record.py" afterPath="$PROJECT_DIR$/record.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bot_brain.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bot_brain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot_brain.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -61,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="record.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -90,12 +87,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/record.py" />
         <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/stt_ailab.py" />
         <option value="$PROJECT_DIR$/play_audio.py" />
         <option value="$PROJECT_DIR$/chatbot.py" />
         <option value="$PROJECT_DIR$/bot_brain.py" />
+        <option value="$PROJECT_DIR$/record.py" />
       </list>
     </option>
   </component>
@@ -637,21 +634,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bot_brain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

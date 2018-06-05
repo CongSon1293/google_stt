@@ -11,3 +11,12 @@ sudo apt-get install python-pyaudio
 ```
 sudo apt-get install mpg123
 ```
+## Usage
+** In server side **: 
+```
+python server.py
+```
+** In client side **: 
+```
+python client.py
+```

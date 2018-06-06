@@ -7,7 +7,7 @@ import utils
 
 utils.mkdir('resources')
 
-api = 'http://127.0.0.1:11119/get_stt'
+api = 'http://devopenai.topica.vn:11119/get_stt'
 
 while True:
     record()

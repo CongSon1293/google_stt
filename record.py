@@ -26,7 +26,7 @@ def record():
         data = stream.read(CHUNK)
         frames.append(data)
 
-    # print("* done recording")
+    print("* done recording")
 
     stream.stop_stream()
     stream.close()
@@ -38,3 +38,8 @@ def record():
     wf.setframerate(RATE)
     wf.writeframes(b''.join(frames))
     wf.close()
+
+
+
+if __name__ == '__main__':
+    record()

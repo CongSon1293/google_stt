@@ -19,7 +19,6 @@ client = speech.SpeechClient()
 
 config = types.RecognitionConfig(
     encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-    sample_rate_hertz=16000,
     language_code='vi')
 
 

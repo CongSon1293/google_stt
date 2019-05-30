@@ -7,10 +7,11 @@ import utils
 
 utils.mkdir('resources')
 
-api = 'http://devopenai.topica.vn:11119/get_stt'
+# api = 'http://devopenai.topica.vn:11119/get_stt'
+api = 'http://0.0.0.0:11119/get_stt'
 
 while True:
-    record()
+    # record()
     with open('resources/question.wav', 'rb') as f:
         audio = f.read()
 
@@ -20,6 +21,6 @@ while True:
     except:
         answer = unicode(r.content, encoding='utf-8')
     print(u'answer: %s' % (answer))
-
-    get_speech(answer)
-    play()
+    # get_speech(answer)
+    # play()
+    break

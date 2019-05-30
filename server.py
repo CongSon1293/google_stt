@@ -12,6 +12,7 @@ from flask import Flask, request
 import bot_brain
 
 
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/nobita/service-account-file.json'
 
 # Instantiates a client
 client = speech.SpeechClient()
